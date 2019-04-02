@@ -1,1 +1,4 @@
-kong/plugins/myplugin
+myplugin
+kong-plugin-myplugin-0.1.0-1.rockspec
+*.sh
+*.rock

@@ -1,7 +1,7 @@
 package = "kong-plugin-myredirect"
 version = "0.1.0-1"
 source = {
-   url = "https://git@github.com/qianweicheng/kong-redirect",
+   url = "git+https://github.com/qianweicheng/kong-redirect.git",
    branch = "master"
 }
 description = {
@@ -12,7 +12,7 @@ description = {
 build = {
    type = "builtin",
    modules = {
-      ["kong.plugins.myredirect.handler"] = "kong/plugins/myredirect/handler.lua",
-      ["kong.plugins.myredirect.schema"] = "kong/plugins/myredirect/schema.lua"
+      ["kong.plugins.myredirect.handler"] = "src/handler.lua",
+      ["kong.plugins.myredirect.schema"] = "src/schema.lua"
    }
 }
