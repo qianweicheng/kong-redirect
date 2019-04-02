@@ -1,7 +1,8 @@
 package = "kong-plugin-myredirect"
 version = "0.1.0-1"
 source = {
-   url = "https://git@github.com/qianweicheng/kong-redirect.git"
+   url = "https://git@github.com/qianweicheng/kong-redirect",
+   branch = "master"
 }
 description = {
    summary = "Kong redirect is used to rewrite the Location based on response Code",
